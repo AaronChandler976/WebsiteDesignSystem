@@ -108,23 +108,15 @@ h1 {
     font-weight: 400;
     letter-spacing: 10px;
     text-align: center;
-    color: #553B38;
-}
-
-h1 span {
-    color: #F24E35;
 }
 
 #title .horizontal-divider {
-    background-color: #553B38;
     height: 1px;
     width: 60%;
     margin: 0 auto;
 }
 
 .table-contents {
-    height: auto;
-    width: auto;
     display: flex;
     flex-flow: row nowrap;
     justify-content: center;
@@ -141,11 +133,6 @@ h1 span {
     font-weight: 400;
     letter-spacing: 10px;
     text-transform: uppercase;
-    color: #553B38;
-}
-
-.table-contents a:hover {
-    color: #F24E35;
 }
 
 
@@ -158,33 +145,26 @@ h1 span {
 }
 
 .horizontal-divider {
-    background-color: #553B38;
     height: 1px;
-    margin: 0;
     width: 100%
 }
 
 h2 {
-    text-align: center;
     font-family: 'Hind Siliguri', sans-serif;
     font-size: 20px;
     font-weight: 400;
     letter-spacing: 4px;
     text-transform: uppercase;
-    color: #553B38;
-    background-color: white;
+    text-align: center;
     border-radius: 5px 5px 0 0;
 }
 
 .colors-box {
-    height: auto;
-    width: auto;
     padding: 16px;
     display: flex;
     flex-flow: row nowrap;
     justify-content: space-between;
     align-items: center;
-    background-color: #E2DAFF;
     border-radius: 0 0 5px 5px;
 }
 
@@ -212,20 +192,8 @@ h3 {
     font-weight: 400;
     letter-spacing: 4px;
     text-transform: uppercase;
-    color: black;
 }
 
-.swatch2 {
-    background-color: #F24E35;
-}
-
-.swatch3 {
-    background-color: #553B38;
-}
-
-.swatch4 {
-    background-color: #E2DAFF;
-}
 
 /* Fonts Section */
 
@@ -243,7 +211,6 @@ h3 {
     flex-flow: row nowrap;
     justify-content: space-between;
     align-items: stretch;
-    background-color: #E2DAFF;
     border-radius: 0 0 5px 5px;
 }
 
@@ -255,19 +222,9 @@ h3 {
     flex-flow: row nowrap;
     justify-content: space-evenly;
     align-items: baseline;
-    background-color: white;
     border: 1px solid black;
     border-radius: 4px;
 }
-
-.fonts-box a {
-    color: #553B38;
-}
-
-.fonts-box a:hover {
-    color: #F24E35;
-}
-
 
 .font1 a {
     font-family: 'Gowun Dodum', sans-serif;
@@ -309,7 +266,6 @@ h3 {
     flex-flow: column nowrap;
     justify-content: flex-start;
     align-items: center;
-    background-color: #E2DAFF;
     border-radius: 0 0 5px 5px;
 }
 
@@ -321,7 +277,6 @@ h3 {
     flex-flow: column nowrap;
     justify-content: flex-start;
     align-items: center;
-    background-color: white;
     border: 1px solid black;
     border-radius: 4px;
 }
@@ -353,10 +308,44 @@ header,
     background-color: #D2EBC7;
 }
 
-.navbar-item a {
+.navbar-item a,
+h1,
+.table-contents li a,
+h2,
+.fonts-box a {
     color: #553B38;
 }
 
-.navbar-item a:hover {
+#title .horizontal-divider,
+.horizontal-divider,
+.swatch3 {
+    background-color: #553B38;
+}
+
+h1 span,
+.navbar-item a:hover,
+.table-contents a:hover,
+.fonts-box a:hover {
     color: #F24E35;
+}
+
+.swatch2 {
+    background-color: #F24E35;
+}
+
+.colors-box,
+.swatch4,
+.fonts-box,
+.textstyles-box {
+    background-color: #E2DAFF;
+}
+
+h2,
+.fonts-box div,
+.textstyle {
+    background-color: white;
+}
+
+h3 {
+    color: black;
 }
