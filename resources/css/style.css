@@ -1,0 +1,362 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    border: none;
+}
+
+/* Header nav bar */
+
+header {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    padding: 0 20% 0 15%;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+header .navbar-right {
+    align-self: flex-end;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+.logo {
+    height: 50px;
+    width: 10%;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.logo img {
+    height: 50px;
+    margin-right: 10px;
+}
+
+.logo a {
+    display: inline-block;
+    height: 50px;
+}
+
+.navbar-left {
+    height: 50px;
+    display: flex;
+    flex-flow: row-reverse nowrap;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.navbar-right {
+    height: 50px;
+    margin-left: auto;
+    display: flex;
+    flex-flow: row-reverse nowrap;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.navbar-left .navbar-item {
+    margin-right: auto;
+}
+
+.navbar-right .navbar-item {
+    margin-left: auto;
+}
+
+.navbar-item {
+    font-family: 'Hind Siliguri', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+/* Main H1 heading and table contents */
+
+main {
+    position: relative;
+    top: 50px;
+    padding-bottom: 160px;
+    margin: 0 25%;
+}
+
+.title-section {
+    margin: 80px 0;
+}
+
+.title-box {
+    height: auto;
+    width: auto;
+}
+
+h1 {
+    margin-left: auto;
+    font-family: 'Gowun Dodum', sans-serif;
+    font-size: 50px;
+    font-weight: 400;
+    letter-spacing: 10px;
+    text-align: center;
+    color: #553B38;
+}
+
+h1 span {
+    color: #F24E35;
+}
+
+#title .horizontal-divider {
+    background-color: #553B38;
+    height: 1px;
+    width: 60%;
+    margin: 0 auto;
+}
+
+.table-contents {
+    height: auto;
+    width: auto;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.table-contents li {
+    padding: 10px 20px;
+}
+
+.table-contents li a {
+    font-family: 'Hind Siliguri', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    letter-spacing: 10px;
+    text-transform: uppercase;
+    color: #553B38;
+}
+
+.table-contents a:hover {
+    color: #F24E35;
+}
+
+
+/* Colors Section */
+
+.colors-section {
+    margin: 3em 0;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.horizontal-divider {
+    background-color: #553B38;
+    height: 1px;
+    margin: 0;
+    width: 100%
+}
+
+h2 {
+    text-align: center;
+    font-family: 'Hind Siliguri', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    color: #553B38;
+    background-color: white;
+    border-radius: 5px 5px 0 0;
+}
+
+.colors-box {
+    height: auto;
+    width: auto;
+    padding: 16px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #E2DAFF;
+    border-radius: 0 0 5px 5px;
+}
+
+.swatch-box {
+    width: 25%;
+    margin: 0 5px;
+}
+
+.swatch-box div {
+    width: 100%;
+    height: 70px;
+    margin: auto;
+    border-radius: 4px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+}
+
+h3 {
+    margin: auto;
+    font-family: 'Teko', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    color: black;
+}
+
+.swatch2 {
+    background-color: #F24E35;
+}
+
+.swatch3 {
+    background-color: #553B38;
+}
+
+.swatch4 {
+    background-color: #E2DAFF;
+}
+
+/* Fonts Section */
+
+.fonts-section {
+    margin: 3em 0;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.fonts-box {
+    height: auto;
+    width: auto;
+    padding: 16px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: stretch;
+    background-color: #E2DAFF;
+    border-radius: 0 0 5px 5px;
+}
+
+.fonts-box div {
+    width: 32%;
+    margin: 0 5px;
+    padding: 5px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-evenly;
+    align-items: baseline;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 4px;
+}
+
+.fonts-box a {
+    color: #553B38;
+}
+
+.fonts-box a:hover {
+    color: #F24E35;
+}
+
+
+.font1 a {
+    font-family: 'Gowun Dodum', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.font2 a {
+    font-family: 'Hind Siliguri', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.font3 a {
+    font-family: 'Teko', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: 3px;
+    text-align: center;
+}
+
+
+ /* Text Styles */
+
+ .textstyles-section {
+    margin: 3em 0;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.textstyles-box {
+    height: auto;
+    width: auto;
+    margin: 0 auto;
+    padding: 16px 21px;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: #E2DAFF;
+    border-radius: 0 0 5px 5px;
+}
+
+.textstyle {
+    width: 100%;
+    margin-bottom: 16px;
+    padding: 5px;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 4px;
+}
+
+.textstyle:last-child {
+    margin: 0;
+}
+
+.textstyle div {
+    width: auto;
+    min-width: 20%;
+}
+
+.textstyles-box h1 {
+    margin: 0 auto;
+}
+
+.textstyle p {
+    font-family: 'Hind Siliguri', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+
+/* Color Styles */
+body,
+header,
+.swatch1 {
+    background-color: #D2EBC7;
+}
+
+.navbar-item a {
+    color: #553B38;
+}
+
+.navbar-item a:hover {
+    color: #F24E35;
+}
