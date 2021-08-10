@@ -9,8 +9,11 @@ Sample website containing a template to its own color scheme, text, and font sty
 * [Future Updates](#future-updates)
 
 ## Technologies Used
-HTML5   CSS3   Git   GitHub
 ![image](https://img.icons8.com/color/50/000000/html-5--v1.png) ![image](https://img.icons8.com/color/48/000000/css3.png) ![image](https://img.icons8.com/color/48/000000/git.png) ![image](https://img.icons8.com/fluent/48/000000/github.png)
+- HTML5
+- CSS3
+- Git
+- GitHub
 
 ## Screenshots
 ![Website Screenshot](./resources/images/screenshot.png)
